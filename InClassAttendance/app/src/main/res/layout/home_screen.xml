@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome xxxxxxxx!"
+    android:textSize="20sp"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:id="@+id/welcomeTitle"/>
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*"
+    android:layout_margin="10dp">
+    <TableRow
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Record\n Attendance"
+            android:textSize="25sp"
+            android:id="@+id/buttonLaunch"
+            android:background="#3e9de7" />
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="View Previous\n Attendance"
+            android:id="@+id/buttonViewAttendance"
+            android:textSize="25sp"
+            android:background="#3e9de7" />
+    </TableRow>
+</TableLayout>
+</LinearLayout>

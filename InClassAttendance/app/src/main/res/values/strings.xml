@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">In Class Attendance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_enter_name">Enter your name</string>
+    <string name="string_enter_studentid">Enter your Student ID (700#)</string>
+    <string name="string_enter_mobile">Enter you contact number</string>
+    <string name="string_choose_department">Choose your department</string>
+    <string name="string_choose_password">Choose your password</string>
+    <string name="string_enter_password">Enter your password</string>
+    <string name="string_enter_email">Enter your email</string>
+    <string name="button_register">Register</string>
+    <string name="button_login">Login</string>
+    <string name="login_username">Enter email or ID number (700#)</string>
+    <array name="department_list">
+        <item>Computer Science</item>
+        <item>Computers Information Systems</item>
+    </array>
+    <array name="semester_list">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+    </array>
+</resources>
