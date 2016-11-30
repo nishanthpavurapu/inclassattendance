@@ -4,7 +4,13 @@ Technologies Used: Android-SDK, Android Studio, PHP, Bootstrap, MySQL, Google Ch
 
 Website: inclassattendance.16mb.com 
 
-Synopsis: InClassAttendance is an android application developed to simplify the process of capturing the student’s attendance in a class room. A Professor can login in the application website and generate a QR-code which includes class, date details and then projects the generated QR code for students to scan it using ‘inclassattendance’ mobile application by logging in. Mobile application scans the code and makes an attendance entry in the database. Professors can find the proxy attendance using the application if the student tries to make multiple attendance entries using one device.
+Synopsis: InClassAttendance is an android application developed to simplify the process of 
+capturing the student’s attendance in a class room. A Professor can login in the application 
+website and generate a QR-code which includes class, date details and then projects the 
+generated QR code for students to scan it using ‘inclassattendance’ mobile application by 
+logging in. Mobile application scans the code and makes an attendance entry in the database. 
+Professors can find the proxy attendance using the application if the student tries to make
+multiple attendance entries using one device.
 
 =================================
 TO ACCESS WEBSITE
